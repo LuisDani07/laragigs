@@ -137,7 +137,7 @@
                                 <button
                                     class="bg-laravel text-white rounded py-2 px-4 hover:bg-black"
                                 >
-                                    Create Gig
+                                    update Gig
                                 </button>
     
                                 <a href="/" class="text-black ml-4"> Back </a>
