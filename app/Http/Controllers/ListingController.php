@@ -6,8 +6,12 @@ use App\Models\Listing;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 
+
+
 class ListingController extends Controller
 {
+
+
     //show all listings
     public function index(Request $request){
         return view('listings.index',[
