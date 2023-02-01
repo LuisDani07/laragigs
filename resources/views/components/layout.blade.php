@@ -40,8 +40,7 @@
                 <li>
                     <a href="login.html" class="hover:text-laravel"
                         ><i class="fa-solid fa-arrow-right-to-bracket"></i>
-                        Login</a
-                    >
+                        Login</a >
                 </li>
             </ul>
         </nav>
@@ -58,6 +57,7 @@
                 >Post Job</a
             >
         </footer>
+        <x-flash-message/>
     </body>
 </html>
 </body>
