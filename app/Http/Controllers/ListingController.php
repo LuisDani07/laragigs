@@ -49,4 +49,9 @@ class ListingController extends Controller
 
             return redirect('/')->with('message','listed created succesfully!');
     }
+    //show edit form
+    public function edit(Listing $listing){
+             return view('listings.edit', ['listing'=>$listing]);
+
+    }
 }
