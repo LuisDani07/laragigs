@@ -22,6 +22,11 @@ class User extends Authenticatable
         'email',
         'password',
     ];
+    //relationship with listings
+    public function listings(){
+        return $this->hasMany(Listing::class,'user_id');
+    }
+
 
     /**
      * The attributes that should be hidden for serialization.
